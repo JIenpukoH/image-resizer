@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2facb0e2a67df92d7835968f7d765dd",
+    "content-hash": "556009fd898cf481893a586ef88e65d6",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -148,7 +148,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JIenpukoH/image-compressor.git",
-                "reference": "1a0163f40b5f8c7f0ec75fea0eac6570f6cc1e34"
+                "reference": "2810be21d5dd8ec6421a66fa357733c0e2134faa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JIenpukoH/image-compressor/zipball/2810be21d5dd8ec6421a66fa357733c0e2134faa",
+                "reference": "2810be21d5dd8ec6421a66fa357733c0e2134faa",
+                "shasum": ""
             },
             "require": {
                 "ext-imagick": "*",
@@ -160,6 +166,7 @@
                     "JIenpukoH\\ImageCompressor\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -170,7 +177,7 @@
                 }
             ],
             "description": "Image compression with Convert@ImageMagick",
-            "time": "2018-09-24T10:56:12+00:00"
+            "time": "2018-09-24T11:28:47+00:00"
         },
         {
             "name": "psr/http-message",
@@ -267,7 +274,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "jienpukoh/image-compressor": 20,
         "intervention/image": 20
     },
     "prefer-stable": false,

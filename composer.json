@@ -2,7 +2,6 @@
   "name": "jienpukoh/image-resizer",
   "description": "Package for image resizing and compressing",
   "license": "MIT",
-  "version": "1.0.0",
   "authors": [
     {
       "name": "Asset Mamyraimov",
