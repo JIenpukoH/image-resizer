@@ -9,7 +9,7 @@
 namespace JIenpukoH\ImageResizer;
 
 
-use Resizable;
+use JIenpukoH\ImageResizer\Interfaces\Resizable;
 
 class Example implements Resizable
 {

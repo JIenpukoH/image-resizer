@@ -1,4 +1,4 @@
-<?php
+<?php namespace JIenpukoH\ImageResizer\Interfaces;
 /**
  * Created by PhpStorm.
  * User: User

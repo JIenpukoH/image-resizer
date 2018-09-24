@@ -149,5 +149,20 @@ class ImageResize
             . '.' . $this->extension;
     }
 
+    /**
+     * @param $root_dir
+     * @param $src
+     * @param $width
+     * @param $height
+     * @param bool $compress
+     * @param int $quality
+     * @return mixed|string
+     */
+    public static function get($root_dir,$src,$width,$height,$compress = true,$quality = 85)
+    {
+        return (new self($src, $quality,$compress))
+            ->setRootDir($root_dir)
+            ->getImage($width, $height);
+    }
 
 }
