@@ -9,12 +9,6 @@
       "email": "mamiraimov.aset@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/JIenpukoH/image-compressor.git"
-    }
-  ],
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
@@ -24,7 +18,7 @@
   "require": {
     "php": ">=5.4.0",
     "ext-imagick": "*",
-    "jienpukoh/image-compressor":"master@dev",
+    "jienpukoh/image-compressor":"*",
     "intervention/image": "^2.4@dev"
   }
 }
