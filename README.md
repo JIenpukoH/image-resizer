@@ -1,2 +1,2 @@
 # image-resizer
-Resize and compress image with Convert @ ImageMagick
+Resize and compress image with ImageCompressor

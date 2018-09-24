@@ -10,10 +10,8 @@ namespace JIenpukoH\ImageResizer;
 
 
 
-
-
 use Intervention\Image\ImageManager;
-use JIenpukoH\ImageResizer\Compressor\ImageCompressor;
+use JIenpukoH\ImageCompressor\Compressor\ImageCompressor;
 
 class ImageResize
 {

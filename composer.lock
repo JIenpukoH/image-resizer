@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "467f3a71ebb8637bc89c835427e83e43",
+    "content-hash": "c2facb0e2a67df92d7835968f7d765dd",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -143,6 +143,36 @@
             "time": "2018-05-29T14:19:03+00:00"
         },
         {
+            "name": "jienpukoh/image-compressor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JIenpukoH/image-compressor.git",
+                "reference": "1a0163f40b5f8c7f0ec75fea0eac6570f6cc1e34"
+            },
+            "require": {
+                "ext-imagick": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JIenpukoH\\ImageCompressor\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Asset Mamyraimov",
+                    "email": "mamiraimov.aset@gmail.com"
+                }
+            ],
+            "description": "Image compression with Convert@ImageMagick",
+            "time": "2018-09-24T10:56:12+00:00"
+        },
+        {
             "name": "psr/http-message",
             "version": "dev-master",
             "source": {
@@ -237,6 +267,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "jienpukoh/image-compressor": 20,
         "intervention/image": 20
     },
     "prefer-stable": false,
