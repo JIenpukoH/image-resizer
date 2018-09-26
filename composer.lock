@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "556009fd898cf481893a586ef88e65d6",
+    "content-hash": "60d3eb7ae44da45d58f25f9ec2c2ef58",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -148,12 +148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JIenpukoH/image-compressor.git",
-                "reference": "2810be21d5dd8ec6421a66fa357733c0e2134faa"
+                "reference": "fd2f89d475c13154bd7a2a80bb602dd12e8e216b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JIenpukoH/image-compressor/zipball/2810be21d5dd8ec6421a66fa357733c0e2134faa",
-                "reference": "2810be21d5dd8ec6421a66fa357733c0e2134faa",
+                "url": "https://api.github.com/repos/JIenpukoH/image-compressor/zipball/fd2f89d475c13154bd7a2a80bb602dd12e8e216b",
+                "reference": "fd2f89d475c13154bd7a2a80bb602dd12e8e216b",
                 "shasum": ""
             },
             "require": {
@@ -177,7 +177,7 @@
                 }
             ],
             "description": "Image compression with Convert@ImageMagick",
-            "time": "2018-09-24T11:28:47+00:00"
+            "time": "2018-09-25T05:51:15+00:00"
         },
         {
             "name": "psr/http-message",
